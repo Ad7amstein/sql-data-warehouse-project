@@ -26,13 +26,15 @@ GO
 
 -- Create Database 'DataWarehouse'
 CREATE DATABASE DataWarehouse;
+GO
 
 -- Create Schemas
 USE DataWarehouse;
+GO
 
 CREATE SCHEMA bronze;
 GO
-CREATE SCHEMA sliver;
+CREATE SCHEMA silver;
 GO
 CREATE SCHEMA gold;
 GO
